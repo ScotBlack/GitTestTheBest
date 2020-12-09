@@ -8,6 +8,7 @@ public class Main {
         System.out.println(myString);
         myString = myString + ", and Goodbye!";
         System.out.println(myString);
+        System.out.println(myString + myString);
 
     }
 }
