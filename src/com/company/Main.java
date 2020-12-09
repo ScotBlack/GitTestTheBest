@@ -9,6 +9,13 @@ public class Main {
         myString = myString + ", and Goodbye!";
         System.out.println(myString);
         System.out.println(myString + myString);
+        System.out.println(myString);
+        System.out.println(myString + myString);
+        System.out.println(myString);
+        System.out.println(myString + myString);
+        System.out.println(myString);
+        System.out.println(myString + myString);
+
 
     }
 }
