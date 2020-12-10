@@ -22,7 +22,7 @@ public class OefenPagina {
 
         calcScore(1, 800, 5, 100);
         calcScore(1, 5800, 127, 1080);
-
+    // test for git
     }
 
     public static void calcScore (int gameOver, int score, int levelCompleted, int bonus) {
@@ -32,6 +32,4 @@ public class OefenPagina {
             System.out.println("Your final score = " + finalScore);
         }
     }
-
-
 }
