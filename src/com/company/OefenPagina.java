@@ -7,15 +7,17 @@ import java.util.HashMap;
 public class OefenPagina {
     public static void main(String[] args) {
 
-    HashMap<String, Integer> playerPietje = new HashMap<>();
-        playerPietje.put("gameOver", 1);
-        playerPietje.put("score", 1000);
-        playerPietje.put("levelCompleted", 12);
-        playerPietje.put("bonus", 100);
+    List<Integer> playerPietje = new ArrayList<>();
+        playerPietje.add(1);
+        playerPietje.add(1000);
+        playerPietje.add(12);
+        playerPietje.add(100);
 
-        int finalScorePietje = playerPietje.get("score");
-        System.out.println(finalScorePietje);
+        System.out.println(playerPietje);
+//        int finalScorePietje = calcScore(playerPietje);
+//        System.out.println(finalScorePietje);
 
+        calcScore(playerPietje.get(0), playerPietje.get(1), playerPietje.get(2), playerPietje.get(3));
 
 
         calcScore(1, 800, 5, 100);
