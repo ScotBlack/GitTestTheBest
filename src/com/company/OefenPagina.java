@@ -25,7 +25,7 @@ public class OefenPagina {
         for (int i = 0; i < sjoerd.length; i++) {
             System.out.println(sjoerd[i]);
         }
-        
+        System.out.println("lalala");
 
     }
 
